@@ -18,3 +18,19 @@ c)MultinomialNB – Naïve Bayes classifier for training the spam detection mode
 
 🔹 NLP Usage
 This project applies NLP at a basic level using Bag of Words with stopword removal to transform raw email text into numerical features for classification.
+
+🚀 How to Run the Project
+📦 Required Libraries
+Make sure you have Python 3.x installed. Install the following libraries before running the project:
+pandas
+scikit-learn
+streamlit
+
+You can install them all at once using:
+pip install pandas scikit-learn streamlit
+
+▶️ Run the Project
+Navigate to the project folder and run the following command:
+streamlit run spam_detection.py(Name of your file)
+
+This will start the Streamlit app, and you’ll see a local URL (like http://localhost:8501) in your terminal. Open it in your browser to use the Email Spam Detection App.
